@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>dw.zip</title>
+</head>
+<style>
+  body {
+    background: gray;
+    color: lightgray;
+    }
+  #play {
+    padding: 0px;
+    margin: 0px;
+    display: none;
+  }
+</style>
+<script>
+function iagree() {
+  document.getElementById("agree").style.display = "none";
+  document.getElementById("play").style.display = "block";
+ }
+</script>
+<body>
+<div id="agree" style="text-align: center; padding: 20px;">
+<h1>By using this website, you agree to our <abbr title="You agree to file & web-data-tracking and analytics; you agree to not share this file with anyone."> terms of service</abbr>.</h1><!---DISCLAIMER: WE DO NOT TRACK ANY DATA!-->
+<p onclick="iagree()"><u>I agree to the terms of use of this website.  I acknowledge that if I break said agreement, my use of this file will be terminated.</u></p>
+</div>
+<div id="play">
+<iframe src="https://tbg95.github.io/" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">Your browser does not support iframes.</iframe>
+</div>
+</body>
+</html>
